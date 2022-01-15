@@ -305,9 +305,6 @@ header {
       opacity: 1;
     }
   }
-}
-
-@media screen and (max-width: 735px) {
   .iphone-11-pro {
     background: url('./images/hero/iphone-11-pro/iphone_11_pro_small.jpg');
   }
@@ -317,6 +314,9 @@ header {
   .watch {
     background: url('./images/hero/watch/watch_small.jpg');
   }
+}
+
+@media screen and (max-width: 735px) {
   .hero {
     height: 50rem;
     background-size: auto 54.8rem;
